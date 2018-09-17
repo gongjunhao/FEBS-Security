@@ -1,0 +1,17 @@
+package cc.mrbird.system.service;
+
+import cc.mrbird.common.service.IService;
+import cc.mrbird.system.domain.SysLog;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import org.aspectj.lang.ProceedingJoinPoint;
+import org.springframework.scheduling.annotation.Async;
+
+import java.io.IOException;
+import java.util.List;
+
+public interface LogService extends IService<SysLog> {
+	
+	List<SysLog> findAllLogs(SysLog log);
+	
+	void deleteLogs(String logIds);
+}
