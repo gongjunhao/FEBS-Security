@@ -50,7 +50,7 @@ FEBS-Security是一个简单高效的后台权限管理系统。项目基础框�
 - 持久层框架：Mybatis 3.4.5
 - 安全框架：Spring Security 5.0.7
 - 摸板引擎：Thymeleaf 3.0.9.RELEASE
-- 数据库连接池：阿里巴巴Druid 1.1.10
+- 数据库连接池：Hikari
 - 缓存框架：Redis
 - 日志打印：logback
 - 其他：Spring Social，Spring OAuth2，fastjson，poi，javacsv，quartz等。
